@@ -52,6 +52,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section {
+  width: 1600px;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .secondary-title {
   font-weight: 700;
@@ -61,6 +67,11 @@ body {
   color: var(--secondary-title-color);
 }
 /*----Header-----*/
+.header {
+  width: 1600px;
+  margin: 0 auto;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -136,6 +147,8 @@ body {
 .hero {
   background-color: #2f303a;
   height: 600px;
+  width: 1600px;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 900;
@@ -150,6 +163,7 @@ body {
 .hero-conteiner {
   display: flex;
   padding-top: 200px;
+  width: 1200px;
 }
 
 .btn {
@@ -175,6 +189,16 @@ body {
 }
 
 /*----Feature-----*/
+.feature {
+}
+.feature-list {
+  display: flex;
+  margin-left: -27px;
+}
+.feature-item {
+  flex-basis: calc(100% / 3 -30);
+  margin-left: 30px;
+}
 
 .feature-title {
   font-weight: 700;
@@ -188,14 +212,28 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
+  width: 270px;
+  padding-top: 10px;
 }
 
 /*----About-----*/
-
+.secondary-title {
+  padding-bottom: 50px;
+}
+.about-list {
+  display: flex;
+}
 /*----Team-----*/
 .team {
   background-color: #f5f4fa;
 }
+.secondary-title {
+}
+
+.team-list {
+  display: flex;
+}
+
 .team-item-name {
   font-weight: 500;
   font-size: 16px;
