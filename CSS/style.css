@@ -197,7 +197,7 @@ body {
   margin-left: -30px;
 }
 .feature-item {
-  flex-basis: calc(100% / 3 - 30px);
+  /* flex-basis: calc(100% / 4 - 30px); */
   margin-left: 30px;
 }
 
@@ -313,6 +313,18 @@ address {
 }
 
 /*----Portfolio-----*/
+.categories {
+  padding-top: 94px;
+}
+.categories-list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.categories-item {
+  margin-left: 8px;
+}
+
 .categories-btn {
   border-radius: 4px;
   background-color: #f5f4fa;
@@ -330,6 +342,11 @@ address {
   background-color: var(--acsent-color);
   color: #ffffff;
 }
+
+.categories-projects {
+  display: flex;
+}
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
