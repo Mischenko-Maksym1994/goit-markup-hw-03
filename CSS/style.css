@@ -55,7 +55,7 @@ body {
   padding-right: 15px;
 }
 .section {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   padding-top: 47px;
   padding-bottom: 47px;
@@ -154,8 +154,9 @@ body {
 .hero {
   background-color: #2f303a;
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
+  padding-top: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -166,11 +167,6 @@ body {
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin-bottom: 30px;
-}
-.hero-conteiner {
-  display: flex;
-  padding-top: 200px;
-  width: 1200px;
 }
 
 .btn {
@@ -296,21 +292,22 @@ address {
 .foot {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
   margin: 0 auto;
+  max-width: 1600px;
+}
+.adress-list > li {
+  margin-bottom: 9px;
 }
 
 .adress-city {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
-  padding-bottom: 9px;
 }
 .adress-link {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 9px;
 }
 .adress-link:hover,
 .adress-link:focus {
