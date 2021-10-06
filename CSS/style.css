@@ -55,7 +55,6 @@ body {
   padding-right: 15px;
 }
 .section {
-  max-width: 1600px;
   margin: 0 auto;
   padding-top: 47px;
   padding-bottom: 47px;
@@ -70,7 +69,6 @@ body {
 }
 /*----Header-----*/
 .header {
-  /* width: 1600px; */
   max-width: 1600px;
   margin: 0 auto;
   border-bottom: 1px solid #ececec;
@@ -243,6 +241,7 @@ body {
   background-color: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
+  max-width: 1600px;
 }
 
 .team-list {
