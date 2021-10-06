@@ -347,6 +347,11 @@ address {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+  border: 0px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .categories-btn-acsent:hover,
 .categories-btn-acsent:focus {
